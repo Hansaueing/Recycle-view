@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.reclyeview.MainActivity" >
+
+    <item
+        android:id="@+id/lin_ver"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="线性垂直布局"/>
+    <item
+        android:id="@+id/lin_hro"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="线性水平布局"/>
+    
+    <item
+        android:id="@+id/grid_view"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="网格布局"/>
+     <item
+        android:id="@+id/grid_view_random"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="随机网格布局"/>
+
+</menu>
